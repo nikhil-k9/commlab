@@ -1,0 +1,518 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #2e475d;
+    font-size: 42px;
+    text-transform: none;
+}
+
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 30px;
+    }
+    
+}
+
+
+h1,h3,h4,h5{
+    text-shadow: 1px 1px 2px #000
+}
+
+h6{
+    font-family: Lexend Deca, serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: none;
+}
+
+@media screen and (max-width: 768px) {
+    h6{
+        font-size: 18px;
+    }
+    
+}
+
+.container{
+    margin: 0.75% 10%;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        margin: 0.75% 5%;
+        width: 90%;
+    }
+    
+}
+
+.hero{
+    background: url("https://www.commlabindia.com/hubfs/cli-main-site/ad/top-elearning-solutions-provider-sec1bg.jpg") no-repeat center center/cover;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.heroMainDiv{
+    margin: 5% auto;
+}
+
+
+.pad-1{
+    font-family: Lexend Deca, serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: none;
+}
+
+
+.pad-2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 60px;
+    text-transform: none;
+    margin-bottom: 0.75%;
+}
+
+@media screen and (max-width: 768px) {
+    .pad-2{
+        font-size: 36px;
+        margin-bottom: 0.75%;
+        padding: 4% 8%;
+    }    
+}
+
+.pad-3{
+    font-family: 'Lexend Deca', serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 26px;
+    text-transform: none;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.pad-4{
+    display: block;
+    font-family: Lexend Deca, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .pad-4{
+        font-size: 24px;
+        margin: 4% 8%;
+    }
+    .pad-3{
+        margin: 4% 8%;
+        font-size: 20px;
+    }
+
+
+    
+}
+
+.blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% auto;
+}
+
+@media screen and (max-width: 768px) {
+    .blocks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    
+}
+
+.flex-col{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-col{
+        width: 90%;
+    }
+    
+}
+
+.two-inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form{
+    padding: 3%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: #EBF3E8;
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .form{
+        max-width: 100%;
+        margin: 2%;
+        font-size: 15px;
+    }
+    
+}
+
+.textBox{
+    padding: 2%;
+    margin: 1%;
+}
+
+.textBoxFull{
+    padding: 1%;
+    margin: 0.5%;
+}
+
+.textPlaceholder{
+    margin: 1%;
+}
+
+.textPlaceholderFull{
+    margin: 0.5%;
+}
+
+.check{
+    margin: 4% 1%;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.hsButton{
+    border: 0px solid #ffffff;
+    padding: 15px 30px;
+    color: #ffffff;
+    background: linear-gradient(to right,#3A866C 0%,#4BC098 100%);
+    border-radius: 10px;
+    font-size: large;
+}
+
+
+.buttonCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+
+}
+
+.secondText{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 42px;
+    text-transform: none;
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    .secondText{
+        font-size: 30px;
+    }
+}
+
+.thirdText{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+li{
+    margin-bottom: 2%;
+}
+
+.secondImageDiv{
+    background: url("https://www.commlabindia.com/hubfs/cli-main-site/ad/4343443.jpg") no-repeat center center/cover;
+    height: fit-content;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    z-index: -1;
+}
+
+.cardContainer{
+    display: flex;
+    flex-basis: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .cardContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+    
+}
+
+.card{
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        padding: 0%;
+        margin: 15px;
+    }
+}
+
+.cardImage{
+    width: 80px;
+    height: 80px;
+}
+
+.cardText{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: none;
+    margin: 2% 0;
+}
+
+.cardTitle{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: none;
+    margin: 2% 0;
+}
+
+.cardDescription{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: none;
+    margin: 2% 0;
+}
+
+.whyCommLab{
+    background: url("https://www.commlabindia.com/hubfs/cli-main-site/ad/345342554.jpg") no-repeat center center/cover;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.whyCommLabCards{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .whyCommLabCards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+.whyCommLabCard{
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0% 2%;
+    margin: 2%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+  .centerCarousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+    max-width: 100%;
+  }
+
+
+  
+  .gallery{
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+  }
+
+    @media screen and (max-width: 768px) {
+        .gallery{
+            width: 100%;
+        }
+    }
+
+  .gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex:none;
+  }
+
+  @media screen and (max-width: 768px) {
+  }
+
+  .gallery div img{
+    width: 100%;
+  }
+
+  .gallery::-webkit-scrollbar{
+    display: none;
+  }
+
+
+  .gallery-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    .gallery-wrap{
+        width: 100%;
+    }
+    
+  }
+
+  #backBtn, #nextBtn{
+    width: 40px;
+    cursor: pointer;
+    margin: 40px;
+  }
+
+  @media screen and (max-width: 768px) {
+    #backBtn, #nextBtn{
+        cursor: pointer;
+        width: 20px;
+        margin: 20px;
+    }
+    
+  }
+
+  .ourWordSection{
+    background-image: url('https://www.commlabindia.com/hubfs/cli-main-site/ad/top-elearning-solutions-provider-awardbg.jpg');
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .awards{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .awards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+  }
+
+  .footer{
+    background-color: #000; width: 100%; color: #ffffff; 
+  }
+
+  .footerContents{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+  }
+  
+  .error{
+    color: red;
+    font-size:xx-small;
+  }
